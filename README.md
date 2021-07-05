@@ -42,14 +42,9 @@ $ cd ~/catkin_ws && catkin_make\
 Second I Launch Simulation World (TurtleBot3 World)
 
 $ export TURTLEBOT3_MODEL=burger\
-$ roslaunch turtlebot3_gazebo turtlebot3_world.launch\
+$ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 
 ![WhatsApp Image 2021-07-05 at 7 35 01 AM (2)](https://user-images.githubusercontent.com/86194970/124419596-7be5ea00-dd66-11eb-87c3-454c7934c7ad.jpeg)
-
-Second I Launch Simulation World and used this codes
-
-$ export TURTLEBOT3_MODEL=burger\
-$ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 
 Third I Run SLAM Node by codes
 
