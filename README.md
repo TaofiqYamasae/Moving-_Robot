@@ -15,14 +15,14 @@ $ bash ./install_ros_melodic.sh
 
 Second I Install Dependent ROS 1 Packages by this code
 
-sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
-  ros-melodic-teleop-twist-keyboard ros-melodic-laser-proc \
-  ros-melodic-rgbd-launch ros-melodic-depthimage-to-laserscan \
-  ros-melodic-rosserial-arduino ros-melodic-rosserial-python \
-  ros-melodic-rosserial-server ros-melodic-rosserial-client \
-  ros-melodic-rosserial-msgs ros-melodic-amcl ros-melodic-map-server \
-  ros-melodic-move-base ros-melodic-urdf ros-melodic-xacro \
-  ros-melodic-compressed-image-transport ros-melodic-rqt* \
+$ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \\\
+  ros-melodic-teleop-twist-keyboard ros-melodic-laser-proc \\\
+  ros-melodic-rgbd-launch ros-melodic-depthimage-to-laserscan \\\
+  ros-melodic-rosserial-arduino ros-melodic-rosserial-python \\\
+  ros-melodic-rosserial-server ros-melodic-rosserial-client \\\
+  ros-melodic-rosserial-msgs ros-melodic-amcl ros-melodic-map-server \\\
+  ros-melodic-move-base ros-melodic-urdf ros-melodic-xacro \\\
+  ros-melodic-compressed-image-transport ros-melodic-rqt* \\\
   ros-melodic-gmapping ros-melodic-navigation ros-melodic-interactive-markers
   
   Third I Install TurtleBot3 Packages by this codes 
